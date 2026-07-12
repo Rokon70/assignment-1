@@ -85,6 +85,32 @@ header {
   text-align: center;
 }
 
-/* ----Speakers---- */
+/* ----Speakers CSS---- */
 
+.speaker-section{
+margin: 60px auto;
+text-align: center;
+display: flex;
+justify-content: space-between;
+gap: 25px;
 
+}
+
+.speaker-section .speaker-card{
+  border: 2px solid #E5E7EB; 
+  padding: 1px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.speaker-card h6{
+  color:#2563EB
+}
+.speaker-card h2{
+  color:#0D1B2A
+}
+
+.speaker-card p{
+  color:#575757;
+
+}
