@@ -88,21 +88,36 @@ header {
 /* ----Speakers CSS---- */
 
 .speaker-section{
-margin: 60px auto;
-text-align: center;
-display: flex;
-justify-content: space-between;
-gap: 25px;
+  padding: 80px 24px;
+}
+
+.section-title{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 25px;
+  margin-bottom: 48px;
+}
+
+.speaker-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  gap: 24px;
+  max-width: 900px;
+  margin: auto;
 
 }
 
-.speaker-section .speaker-card{
+.speaker-grid .speaker-card{
+  /* width: 100%; */
+  background-color:  rgb(255, 255, 255);
   border: 2px solid #E5E7EB; 
-  padding: 1px;
+  padding:  1px;
   border-radius: 12px;
+  margin: 10px;
   text-align: left;
 }
-
+ 
 .speaker-card h6{
   color:#2563EB
 }
@@ -113,4 +128,8 @@ gap: 25px;
 .speaker-card p{
   color:#575757;
 
+}
+.speaker-info{
+  padding: 18px;
+  gap: 5px;
 }
