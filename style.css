@@ -133,3 +133,38 @@ header {
   padding: 18px;
   gap: 5px;
 }
+
+/* ---Secure You Spot--- */
+
+.secure-spot{
+  padding: 80px 24px;
+}
+
+.secure-header{
+  text-align: center;
+  font-size: 40px;
+  color:#0D1B2A;
+}
+.secure-header p{
+  font-size: 22px;
+  margin-top: 10px;
+  color:#575757;
+}
+
+.card-grid{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20%;
+  /* max-width: 100%; */
+  
+}
+
+.card-price{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #575757;
+  border-radius: 10px;
+  gap: 30px;
+}
+
