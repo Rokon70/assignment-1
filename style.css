@@ -94,6 +94,8 @@ header {
 /* ----Speakers CSS---- */
 
 .speaker-section{
+  max-width: 1200px;
+  margin: auto;
   padding: 80px 24px;
 }
 
@@ -270,4 +272,36 @@ header {
     border: 1px solid #000000;
     border-radius: 8px;
     cursor: pointer;
+}
+
+/* ---footer--- */
+
+.footer-section{
+  align-items: center;
+  padding: 28px 8%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #0D1B2A;
+  color: #e4e4e4;
+}
+
+.icons{
+  display: flex;
+  gap: 40px;
+  justify-content: none;
+  cursor: pointer;
+}
+.footer-text{
+  color:#ffffff;
+  justify-content: space-between;
+  display: flex;
+  gap: 50px;
+  opacity: 70%;
+  font-weight: 200;
+}
+.footer-section div p{
+  color:rgb(255, 255, 255);
+  opacity: 70%;
+  font-weight: 200;
 }
