@@ -289,7 +289,7 @@ header {
 .slides {
     display: flex;
     width: 300%;
-    animation: slideShow 5s infinite;
+    animation: slideShow 10s infinite;
 }
 
 .slides img {
