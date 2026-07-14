@@ -111,8 +111,10 @@ header {
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   gap: 30px;
-  max-width: 1300px; 
+  max-width:fit-content;
   margin: auto;
+  /* max-width: 1300px;  */
+  /* margin: auto; */
 
 }
 
@@ -121,8 +123,8 @@ header {
   background-color:  rgb(255, 255, 255);
   border: 1px solid #E5E7EB; 
   border-radius: 10px;
-  overflow: hidden;
-  margin: 10px;
+  overflow:hidden;
+  /* margin: 10px; */
   text-align:left;
 }
  
@@ -164,10 +166,9 @@ header {
 
 .card-grid{
   display: flex;
-  justify-content: space-between;
-  margin: 20px 20%;
-  /* max-width: 100%; */
-  align-items: stretch;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 25%;
   gap: 30px;
   
 }
@@ -277,13 +278,12 @@ header {
 /* --slider--- */
 
 .slideshow{
-    width: 100%;
-    max-width: 1200px;
-    height: 500px;
+    width: 70%;
+    height: 600px;
     margin: auto;
     overflow: hidden;
     border-radius: 10px;
-    position: relative;
+    position:relative;
 }
 
 .slides {
@@ -294,8 +294,8 @@ header {
 
 .slides img {
     width: 33.333%;
-    height: 500px;
-    object-fit: cover;
+    height: 600px;
+    object-fit:cover;
 }
 
 @keyframes slideShow {
